@@ -28,7 +28,6 @@ const Task = ({index,todo,handleEdit,handleDelete}) => {
                     
                      <div className='circle'>
                       <img  src={img6} className='left_valid' onMouseUp={() => handleEdit(index)} />
-                
                       </div>
 
                     

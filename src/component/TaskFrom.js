@@ -18,7 +18,7 @@ const TaskFrom = ({handleSubmit,input,handleInput,isEditing}) => {
         />
     
          <div className='btn' onMouseUp={ handleSubmit } >
-                <span style={{fontSize:'1.2rem'}}   >
+                <span className='span_'  >
                        {isEditing ? "Update task" : "Add task"}
                 </span>
           </div>
