@@ -12,7 +12,10 @@ import img7 from './../images/edit_.png'
 const Task = ({index,todo,handleEdit,handleDelete}) => {
 
   console.log(">>>>>>:::")
-
+  
+  const cutString = (str) =>{
+   return str.substring(0, 10)
+  }
 
   return (
     <div key={index}  className='task_row'   >
@@ -20,7 +23,7 @@ const Task = ({index,todo,handleEdit,handleDelete}) => {
           <img  src={img1} className='avatar' />
 
            <span className='text' >
-                {todo}
+                {todo.length > 20?cutString(todo)+"...":todo}
            </span>
 
               {/* RIGHT CORNER */}
