@@ -210,3 +210,712 @@
   scale: 0.8;
   transition: all 300ms ease;
 }
+
+
+
+
+
+
+
+
+
+
+
+/*############# MEDIA QUERY ############### */
+
+@media screen and (max-width: 1300px) {
+
+
+  .form_task{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30rem;
+    height: 16rem;
+    border-radius: 2rem;
+    background-color: rgb(231, 222, 208);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 300ms ease;
+  }
+
+
+
+  .task_list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+     width: 95%;
+     height: 35rem;
+     padding: 1rem;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     border-radius: 2rem;
+     background-color: rgb(255, 246, 235);
+     overflow: auto;
+     transition: all 300ms ease;
+   }
+  
+
+  
+  .App-header {
+    
+    min-height: 100vh;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding: 0.08rem 2rem;
+  }
+
+}
+
+
+
+
+
+@media screen and (max-width: 800px) {
+
+  .avatar{
+    width: 2.5rem;
+     height: 2.5rem;
+     border-radius: 5rem;
+   }
+
+  .form_task{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30rem;
+    height: 16rem;
+    border-radius: 2rem;
+    background-color: rgb(231, 222, 208);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 300ms ease;
+  }
+
+
+  .task_row{
+    width: 90%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 1rem;
+    background-color: antiquewhite;
+    padding: 0.5rem 1rem;
+    display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 1.1rem;
+   transition: all 300ms ease;
+  }
+
+
+
+  .task_list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+     width: 98%;
+     height: 35rem;
+     padding: 1rem;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     border-radius: 2rem;
+     background-color: rgb(255, 246, 235);
+     overflow: auto;
+     transition: all 300ms ease;
+   }
+  
+
+  
+  .App-header {
+    
+    min-height: 100vh;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding: 0.08rem 3rem;
+  }
+
+  .right{
+    width: 20rem;
+    border-radius: 0.6rem;
+    transition: all 300ms ease;
+    display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: end;
+     gap: 1rem;
+   }
+   
+   
+   
+   .right .left_{
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 5rem;
+    transition: all 300ms ease;
+   }
+   .right .left_:active{
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 5rem;
+    transition: all 300ms ease;
+    scale: 0.8;
+   }
+   
+   
+   
+   
+   
+   .circle{
+    width: 2.8rem;
+    height: 2.8rem;
+    border: 2px solid black;
+    border-radius: 5rem;
+    transition: all 300ms ease;
+    display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     cursor: pointer;
+   }
+   .circle:active{
+    width: 2.8rem;
+    height: 2.8rem;
+    border: 2px solid black;
+    border-radius: 5rem;
+    transition: all 300ms ease;
+    display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     scale: 0.8;
+   }
+   .right .left_valid{
+    width: 3.8rem;
+    height: 3.8rem;
+    border-radius: 5rem;
+    transition: all 300ms ease;
+   }
+   
+   
+   .right .right_1{
+     width: 2.8rem;
+      height: 2.9rem;
+      border-radius: 5rem;
+      transition: all 300ms ease;
+    }
+    .right .right_1:active{
+     width: 2.8rem;
+      height: 2.9rem;
+      border-radius: 5rem;
+      scale: 0.8;
+      transition: all 300ms ease;
+    }
+   
+   
+   .right .right_{
+    width: 1.9rem;
+     height: 1.9rem;
+     border-radius: 5rem;
+     transition: all 300ms ease;
+   }
+   .right .right_:active{
+    width: 1.9rem;
+     height: 1.9rem;
+     border-radius: 5rem;
+     scale: 0.8;
+     transition: all 300ms ease;
+   }
+   
+
+}
+
+
+
+
+
+@media screen and (max-width: 393px) {
+
+  .avatar{
+    width: 2.5rem;
+     height: 2.5rem;
+     border-radius: 5rem;
+   }
+
+   .btn{
+    width: 20rem;
+     height: 3rem;
+     border-radius: 0.6rem;
+     background-color: #282c34;
+     cursor: pointer;
+     transition: all 300ms ease;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+   }
+   .btn:hover{
+    width: 20rem;
+     height: 3rem;
+     border-radius: 0.6rem;
+     background-color: #505663;
+     cursor: pointer;
+     transition: all 300ms ease;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+   }
+   .btn:active{
+    width: 20rem;
+     height: 3rem;
+     border-radius: 0.6rem;
+     background-color: #282c34b4;
+     cursor: pointer;
+     transition: all 300ms ease;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     scale: 0.9;
+   }
+
+  .form_task{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 22rem;
+    height: 16rem;
+    border-radius: 2rem;
+    background-color: rgb(231, 222, 208);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 300ms ease;
+  }
+
+
+  .task_row{
+    width: 35rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 1rem;
+    background-color: antiquewhite;
+    padding: 0.5rem 1rem;
+    display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 1.1rem;
+   transition: all 300ms ease;
+  }
+
+
+
+  .task_list{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+     width: 21rem;
+     height: 30rem;
+     padding: 1rem;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     border-radius: 2rem;
+     background-color: rgb(255, 246, 235);
+     overflow: auto;
+     transition: all 300ms ease;
+   }
+  
+
+  
+  .App-header {
+    
+    min-height: 100vh;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding: 0.08rem 3rem;
+  }
+
+}
+
+
+
+
+
+@media screen and (max-width: 412px) {
+
+  .avatar{
+    width: 2.5rem;
+     height: 2.5rem;
+     border-radius: 5rem;
+   }
+
+   .btn{
+    width: 20rem;
+     height: 3rem;
+     border-radius: 0.6rem;
+     background-color: #282c34;
+     cursor: pointer;
+     transition: all 300ms ease;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+   }
+   .btn:hover{
+    width: 20rem;
+     height: 3rem;
+     border-radius: 0.6rem;
+     background-color: #505663;
+     cursor: pointer;
+     transition: all 300ms ease;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+   }
+   .btn:active{
+    width: 20rem;
+     height: 3rem;
+     border-radius: 0.6rem;
+     background-color: #282c34b4;
+     cursor: pointer;
+     transition: all 300ms ease;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     scale: 0.9;
+   }
+
+  .form_task{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 22rem;
+    height: 16rem;
+    border-radius: 2rem;
+    background-color: rgb(231, 222, 208);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 300ms ease;
+  }
+
+
+  .task_row{
+    width: 35rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 1rem;
+    background-color: antiquewhite;
+    padding: 0.5rem 1rem;
+    display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 1.1rem;
+   transition: all 300ms ease;
+  }
+
+
+
+  .task_list{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+     width: 21rem;
+     height: 30rem;
+     padding: 1rem;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     border-radius: 2rem;
+     background-color: rgb(255, 246, 235);
+     overflow: auto;
+     transition: all 300ms ease;
+   }
+  
+
+  
+  .App-header {
+    
+    min-height: 100vh;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding: 0.08rem 3rem;
+  }
+
+}
+
+
+@media screen and (max-width: 375px) {
+
+  .avatar{
+    width: 2.5rem;
+     height: 2.5rem;
+     border-radius: 5rem;
+   }
+
+   .btn{
+    width: 13rem;
+     height: 6rem;
+     border-radius: 0.6rem;
+     background-color: #282c34;
+     cursor: pointer;
+     transition: all 300ms ease;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+   }
+   .btn:hover{
+    width: 13rem;
+    height: 6rem;
+     border-radius: 0.6rem;
+     background-color: #505663;
+     cursor: pointer;
+     transition: all 300ms ease;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+   }
+   .btn:active{
+    width: 13rem;
+    height: 6rem;
+     border-radius: 0.6rem;
+     background-color: #282c34b4;
+     cursor: pointer;
+     transition: all 300ms ease;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     scale: 0.9;
+   }
+
+  .form_task{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 17rem;
+    height: 10rem;
+    border-radius: 2rem;
+    background-color: rgb(231, 222, 208);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 300ms ease;
+  }
+
+
+  .task_row{
+    width: 25rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 1rem;
+    background-color: antiquewhite;
+    padding: 0.5rem 1rem;
+    display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 1.1rem;
+   transition: all 300ms ease;
+  }
+
+
+
+  .task_list{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+     width: 21rem;
+     height: 25rem;
+     padding: 1rem;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     border-radius: 2rem;
+     background-color: rgb(255, 246, 235);
+     overflow: auto;
+     transition: all 300ms ease;
+   }
+  
+
+   .input_{
+    width: 14rem;
+    height: 6rem;
+    border-radius: 0.6rem;
+    padding: 0.2rem 0.1rem;
+    padding-left:1rem;
+    border: none;
+    margin-bottom: 2rem;
+    transition: all 300ms ease;
+   }
+   .input_:active{
+    width: 14rem;
+    height: 6rem;
+    border-radius: 0.6rem;
+    padding: 0.2rem 0.1rem;
+    padding-left:1rem;
+    margin-bottom: 2rem;
+    transition: all 300ms ease;
+   }
+  
+  .App-header {
+    
+    min-height: 100vh;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding: 0.08rem 3rem;
+  }
+
+}
+
+
+@media screen and (max-width: 414px) {
+
+  .avatar{
+    width: 2.5rem;
+     height: 2.5rem;
+     border-radius: 5rem;
+   }
+
+   .btn{
+    width: 13rem;
+     height: 6rem;
+     border-radius: 0.6rem;
+     background-color: #282c34;
+     cursor: pointer;
+     transition: all 300ms ease;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+   }
+   .btn:hover{
+    width: 13rem;
+    height: 5rem;
+     border-radius: 0.6rem;
+     background-color: #505663;
+     cursor: pointer;
+     transition: all 300ms ease;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+   }
+   .btn:active{
+    width: 13rem;
+    height: 5rem;
+     border-radius: 0.6rem;
+     background-color: #282c34b4;
+     cursor: pointer;
+     transition: all 300ms ease;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     scale: 0.9;
+   }
+
+  .form_task{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 17rem;
+    height: 15rem;
+    border-radius: 2rem;
+    background-color: rgb(231, 222, 208);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 300ms ease;
+  }
+
+
+  .task_row{
+    width: 25rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 1rem;
+    background-color: antiquewhite;
+    padding: 0.5rem 1rem;
+    display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 1.1rem;
+   transition: all 300ms ease;
+  }
+
+
+
+  .task_list{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+     width: 21rem;
+     height: 36rem;
+     padding: 1rem;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     border-radius: 2rem;
+     background-color: rgb(255, 246, 235);
+     overflow: auto;
+     transition: all 300ms ease;
+   }
+  
+
+   .input_{
+    width: 14rem;
+    height: 5rem;
+    border-radius: 0.6rem;
+    padding: 0.2rem 0.1rem;
+    padding-left:1rem;
+    border: none;
+    margin-bottom: 2rem;
+    transition: all 300ms ease;
+   }
+   .input_:active{
+    width: 14rem;
+    height: 5rem;
+    border-radius: 0.6rem;
+    padding: 0.2rem 0.1rem;
+    padding-left:1rem;
+    margin-bottom: 2rem;
+    transition: all 300ms ease;
+   }
+  
+  .App-header {
+    
+    min-height: 100vh;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding: 0.08rem 3rem;
+  }
+
+}
